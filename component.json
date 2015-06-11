@@ -1,0 +1,9 @@
+{
+  "name": "fingerprint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "YouMeb/font-detect": "*",
+    "karanlyons/murmurHash3.js": "*"
+  }
+}
