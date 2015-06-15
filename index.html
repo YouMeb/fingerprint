@@ -1,8 +1,25 @@
-<script src="build/index.js"></script>
-<script>
-  var fp = fingerprint()
-    .use('canvas')
-    .use('plugins')
-    .use('indexedDB');
-console.log(fp.get());
-</script>
+<head>
+  <title>fingerprint</title>
+</head>
+<body>
+  <script src="build/index.js"></script>
+  <script>
+    var fp = fingerprint()
+      .use('fetch')
+      .use('canvas')
+      .use('plugins')
+      .use('platform')
+      .use('language')
+      .use('cpuClass')
+      .use('fontList')
+      .use('userAgent')
+      .use('indexedDB')
+      .use('sendBeacon')
+      .use('colorDepth')
+      .use('doNotTrack')
+      .use('localStorage')
+      .use('timezoneOffset')
+      .get();
+    console.log(fp);
+  </script>
+</body>
