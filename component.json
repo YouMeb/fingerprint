@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
+    "component/map": "*",
     "component/bind": "1.0.0",
     "YouMeb/font-detect": "*",
     "karanlyons/murmurHash3.js": "*"
